@@ -1,0 +1,12 @@
+{
+  "name": "Staging",
+  "prefix": "secretManager",
+  "description": "The following example us prefixes all secrets with `staging-`.",
+  "config": {
+    "project.id": "123454234"
+  },
+  "connectorConfig": {
+    "username": "${secretManager:mysql-connector:username}",
+    "password": "${secretManager:mysql-connector:password}"
+  }
+}
