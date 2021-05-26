@@ -1,5 +1,5 @@
 {
-  "name": "Token",
+  "name": "Staging",
   "prefix": "secretManager",
   "description": "The following example us prefixes all secrets with `staging-`.",
   "config": {
@@ -9,6 +9,5 @@
   "connectorConfig": {
     "username": "${secretManager:mysql-connector:username}",
     "password": "${secretManager:mysql-connector:password}"
-  },
-  "tip": "Some of the settings of this config provider can be configured via environment variables."
+  }
 }
