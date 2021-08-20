@@ -29,7 +29,7 @@
     <artifactId>kafka-config-provider-gcloud</artifactId>
     <version>0.1-SNAPSHOT</version>
     <name>kafka-config-provider-gcloud</name>
-    <description>A Kafka Connect plugin for interacting with Redis.</description>
+    <description>A Kafka Connect plugin for interacting with Google Cloud Secret Manager.</description>
     <url>https://github.com/jcustenborder/kafka-config-provider-gcloud</url>
     <inceptionYear>2021</inceptionYear>
     <licenses>
