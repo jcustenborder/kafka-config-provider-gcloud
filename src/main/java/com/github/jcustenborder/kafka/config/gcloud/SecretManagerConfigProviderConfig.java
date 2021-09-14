@@ -132,7 +132,7 @@ class SecretManagerConfigProviderConfig extends AbstractConfig {
 
       switch (credentialLocation) {
         case File:
-          String credentialsFile = getRequiredString(CREDENTIAL_LOCATION_CONFIG);
+          String credentialsFile = getRequiredString(CREDENTIAL_FILE_CONFIG);
           log.info("Loading credentials file '{}'", credentialsFile);
           try (InputStream inputStream = new FileInputStream(credentialsFile)) {
             result = GoogleCredentials.fromStream(inputStream);
